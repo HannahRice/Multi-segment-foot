@@ -1,5 +1,5 @@
 # Multi-segment-foot
-Matlab code: function that uses plantar pressure data to obtain the relative force acting under three segments (rearfoot, midfoot and forefoot) of the foot  during running stance and the location of the centre of pressure of each segment in a global motion capture coordinate system
+Matlab code function that uses plantar pressure data to obtain the relative force acting under three segments (rearfoot, midfoot and forefoot) of the foot  during running stance and the location of the centre of pressure of each segment in a global motion capture coordinate system
 
 
 % Hannah Rice August 2025
@@ -12,10 +12,10 @@ Matlab code: function that uses plantar pressure data to obtain the relative for
 % each participant's foot markers during a static trial.
 
 % Function is specific to a (Tekscan Mat 7101E) pressure plate with
-% the following dimensions: 
-% Matrix Height: 447.0 mm
-% Matrix Width: 487.7 mm
-% Thickness: 0.102 mm
+% the following dimensions 
+% Matrix Height 447.0 mm
+% Matrix Width 487.7 mm
+% Thickness 0.102 mm
 
 
 
@@ -26,9 +26,9 @@ Matlab code: function that uses plantar pressure data to obtain the relative for
 % separated by empty rows 
 
 % Input static file provides the marker locations from the static trial
-% from OpenSim, and presented in the QTM Coordinate system (right
-% Patrick?), saved as a .m file. Marker names are called in 81 - 87 of the
-% function (TO UPDATE). 
+% from OpenSim, and presented in the QTM Coordinate system, saved as a .m file. 
+% Marker names are called in 80 - 86 of the
+% function . 
 
 
 %% OUTPUT is a structure which contains for each of the three foot segments an n by 3 matrix, where n represents the number of frames 
