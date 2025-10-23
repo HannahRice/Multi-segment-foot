@@ -22,9 +22,8 @@
 % separated by empty rows 
 
 % Input static file provides the marker locations from the static trial
-% from OpenSim, and presented in the QTM Coordinate system (right
-% Patrick?), saved as a .m file. Marker names are called in 81 - 87 of the
-% function (TO UPDATE). 
+% from OpenSim, and presented in the QTM Coordinate system, saved as a .m file. 
+% Marker names are called in 80 - 86 of the function. 
 
 
 %% OUTPUT is a structure which contains for each of the three foot segments an n by 3 matrix, where n represents the number of frames 
